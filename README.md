@@ -7,6 +7,6 @@ Work in progress — see [docs/roadmap.md](docs/roadmap.md).
 ## Setup
 ```bash
 pnpm install
-cp .env.example .env   # add your ANTHROPIC_API_KEY
+cp .env.example .env   # add your DEEPSEEK_API_KEY
 pnpm hello
 ```

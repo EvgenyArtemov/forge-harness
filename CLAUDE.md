@@ -26,5 +26,5 @@ The owner is a senior frontend engineer learning Node.js/agent runtimes by build
 - `pnpm typecheck`
 
 ## Secrets
-`ANTHROPIC_API_KEY` lives in `.env` (gitignored, loaded with Node's `--env-file`). Never commit `.env`.
-Model: `claude-opus-5`.
+`DEEPSEEK_API_KEY` lives in `.env` (gitignored, loaded with Node's `--env-file`). Never commit `.env`.
+Model: `deepseek-v4-pro` via DeepSeek's Anthropic-compatible endpoint (`https://api.deepseek.com/anthropic`), using `@anthropic-ai/sdk`.
